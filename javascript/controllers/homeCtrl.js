@@ -7,11 +7,12 @@ app.controller('homeCtrl', function($scope, $location, $anchorScroll) {
   }
 
   $scope.submitContactInfo = function() {
-    console.log('contact first name: ', $scope.contact);
+    /*
     Contact.submit($scope.contact)
     .then(function(res) {
       console.log('successfully sent res is: ', res);
     });
+    */
   };
 });
 
