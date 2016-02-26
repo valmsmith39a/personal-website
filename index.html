@@ -4,105 +4,17 @@
   <meta charset="UTF-8">
   <title>George Wee</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-  <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  <!--
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">  
   <link rel="stylesheet" href="style.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
+  <script src="javascript/module.js"></script>
+  <script src="javascript/controllers/homeCtrl.js"></script>
+  <script src="javascript/controllers/blogCtrl.js"></script>
 </head>
-<body>
-
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#"></a>
-      </div>
-      <ul class="nav navbar-nav">
-        <li><a href="https://valmsmith39a.wordpress.com/">Blog</a></li>
-        <li><a href="#">Resume</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <div class="main-container">
-    <div class="title-container">
-      <table class="title-features-table">
-        <tr id="title-row">
-          <h1 id="name">George Wee</h1>
-        </tr>
-        <tr id="title-descript-row">
-          <h2 id="title-descript">Full-Stack Web Developer</h2>
-        </tr>
-        <tr id="soc-media-row">
-          <td id="github-box">
-            <a id='github-url'href="https://github.com/valmsmith39a">GitHub
-            </a>
-          </td>
-          <td id="resume-box">
-            <a id='resume-url' href="https://www.linkedin.com/in/georgewee">LinkedIn
-            </a>
-          </td>
-          <td id="twitter-box">
-            <a id='twitter-url' href="https://twitter.com/valmsmith39a">Twitter
-            </a>
-          </td>
-        </tr>
-      </table>
-    </div>    
-
-    <div class = "row">
-      <div class = "col-sm-6 col-md-4">
-        <div class="thumbnail">
-          <a href = "https://polar-crag-58252.herokuapp.com/">
-            <img id="img-1" src = "https://pixabay.com/static/uploads/photo/2012/10/25/23/24/film-poster-62856_960_720.jpg" alt = "Generic placeholder thumbnail">
-            <div id="project1-caption" class = "caption">
-            <h3>Postermania</h3>
-          </a>
-          <p>
-            <a href="https://github.com/valmsmith39a/postermania">GitHub</a>
-          </p>
-        </div>
-       </div>
-      </div>
-
-      <div class = "col-sm-6 col-md-4">
-        <div class="thumbnail">
-          <a href = "http://valmsmith39a.github.io/stock-app/#/">
-            <img id="img-2" src = "http://cdn.shopify.com/s/files/1/1056/2036/products/BullBear1157_JPG150_grande.jpg?v=1447358671" alt = "Generic placeholder thumbnail">
-            <div id="project2-caption" class = "caption">
-            <h3>BullvsBear</h3>
-          </a>
-          <p>
-            <a href="https://github.com/valmsmith39a/stock-app">GitHub</a>
-          </p>
-        </div>
-       </div>
-      </div>
-
-      <div class = "col-sm-6 col-md-4">
-        <div class="thumbnail">
-          <a href = "https://polar-crag-58252.herokuapp.com/">
-            <img id="img-3" src = "https://images.unsplash.com/photo-1455734729978-db1ae4f687fc?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=79f3d5413bf93c80833ac50a3f4323cf" alt = "Generic placeholder thumbnail">
-            <div id="project3-caption" class = "caption">
-            <h3>Carousel (Photo-Album)</h3>
-          </a>
-          <p>
-            <a href="https://github.com/valmsmith39a/photo-album">GitHub</a>
-          </p>
-        </div>
-       </div>
-      </div>
-    </div>
+<body ng-app="personalSite">
+  <ui-view></ui-view>
 </body>
 </html>
