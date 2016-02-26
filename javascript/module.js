@@ -8,3 +8,12 @@ app.config(function($stateProvider, $urlRouterProvider) {
   .state('blog', {url:'/blog', templateUrl:'./partials/blog.html', controller:'blogCtrl'})
   $urlRouterProvider.otherwise('/');
 });
+
+/*
+app.run(function($rootScope, $location, $anchorScroll, $routeParams) {
+  $rootScope.$on('$routeChangeSuccess', function(newRoute, oldRoute) {
+    $location.hash($routeParams.scrollTo);
+    $anchorScroll();
+  });
+});
+*/
