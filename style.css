@@ -240,5 +240,32 @@ a:hover {
   color:black;
 }
 
+#contact_form {
+  color:white;
+  text-align: center;
+}
+
+#contact-legend {
+  color:white;
+}
+
+#input-email {
+  /*width:33vw;*/
+
+}
+
+.header {
+        /*color: #36A0FF;*/
+        color:white;
+        font-size: 27px;
+        padding: 10px;
+    }
+
+    .bigicon {
+        font-size: 35px;
+        /*color: #36A0FF;*/
+        color:white;
+    }
+
 
 
