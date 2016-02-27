@@ -10,6 +10,10 @@ a:hover {
   color:#5E5E5E;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .navbar navbar-default {
   background-color: #2B2B2B;
 }
@@ -120,6 +124,22 @@ a:hover {
   background-color: white;
 }
 
+.skills-container {
+  position:relative;
+  color:white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.skills-row {
+  position:relative;
+  margin: 125px 0px;
+}
+
+.list-group {
+  color:white;
+  opacity:0;
+}
 #thumbnail {
   background-color: #757575;
   /*color: #C5C5C5;*/
@@ -251,21 +271,20 @@ a:hover {
 
 #input-email {
   /*width:33vw;*/
-
 }
 
 .header {
-        /*color: #36A0FF;*/
-        color:white;
-        font-size: 27px;
-        padding: 10px;
-    }
+  /*color: #36A0FF;*/
+  color:white;
+  font-size: 27px;
+  padding: 10px;
+}
 
-    .bigicon {
-        font-size: 35px;
-        /*color: #36A0FF;*/
-        color:white;
-    }
+.bigicon {
+  font-size: 35px;
+  /*color: #36A0FF;*/
+  color:white;
+}
 
 
 
