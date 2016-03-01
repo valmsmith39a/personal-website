@@ -273,6 +273,11 @@ ul {
   /*width:33vw;*/
 }
 
+#resume-pdf {
+  width:90vw;
+  height:100vh;
+}
+
 .header {
   /*color: #36A0FF;*/
   color:white;
