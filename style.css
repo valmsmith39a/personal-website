@@ -32,7 +32,7 @@ ul {
   background-image: url('https://images.unsplash.com/photo-1452716726610-30ed68426a6b?crop=entropy&dpr=2&fit=crop&fm=jpg&h=725&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1425');
   background-size:100% 100%;
   text-align:center;
-} 
+}
 
 .title-features-table {
   margin: 0 auto;
@@ -64,6 +64,7 @@ ul {
 .flip-container:hover .flipper, .flip-container.hover .flipper {
   transform: rotateY(180deg);
 }
+
 
 .flip-container, .front, .back {
   width: 320px;
@@ -97,6 +98,15 @@ ul {
   transform: rotateY(180deg);
 }
 
+#projects-row {
+  /*background-color: red;*/
+}
+
+.col-projects {
+  /*background-color: green;*/
+  text-align: center;
+}
+
 .projects-container {
   height:20vh;
   width:100%;
@@ -106,8 +116,9 @@ ul {
 
 .project-box-outer {
   width:33%;
+  background-color: yellow;
   display:inline-block;
-  /* float:left; */
+   /*float:left;*/
   /* padding-left:4px; */
 }
 
@@ -116,12 +127,15 @@ ul {
   background:gray;
   width:200px;
   left:5vw;
-  margin:5px 40px;
+  /*margin:5px 40px;*/
   margin:5px auto;
 }
 
 .thumbnail {
   background-color: white;
+  margin: 0 auto;
+  height:50vh;
+  width:25vw;
 }
 
 .skills-container {
@@ -140,6 +154,7 @@ ul {
   color:white;
   opacity:0;
 }
+
 #thumbnail {
   background-color: #757575;
   /*color: #C5C5C5;*/
@@ -188,6 +203,7 @@ ul {
 #project1-caption, #project2-caption, #project3-caption {
   color: black;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 #name {
@@ -207,15 +223,18 @@ ul {
   top:10vh;
 }
 
+/*.thumbnail {
+  width: 50%;
+}*/
+
 #img-1, #img-2, #img-3 {
-  height:25vw;
-  width:20vw;
+  height: 100%;
+  width:100%;
 }
 
 #project-1 {
   height:25vw;
   width:20vw;
-  /*background-image: url('https://pixabay.com/static/uploads/photo/2012/10/25/23/24/film-poster-62856_960_720.jpg');*/
   background-size: 100% 100%;
   margin:10px;
 }
@@ -223,7 +242,6 @@ ul {
 #project-2 {
   height:25vw;
   width:20vw;
-  /*background-image: url('http://cdn.shopify.com/s/files/1/1056/2036/products/BullBear1157_JPG150_grande.jpg?v=1447358671');*/
   background-size: 100% 100%;
   margin:10px;
 }
@@ -231,21 +249,20 @@ ul {
 #project-3 {
   height:25vw;
   width:20vw;
-  /*background-image: url('https://images.unsplash.com/photo-1455734729978-db1ae4f687fc?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=79f3d5413bf93c80833ac50a3f4323cf');*/
   background-size: 100% 100%;
   margin:10px;
 }
 
 #project-1-title {
-  margin:30px; 
+  margin:30px;
 }
 
 #project-2-title {
-  margin:30px; 
+  margin:30px;
 }
 
 #project-3-title {
-  margin:30px; 
+  margin:30px;
 }
 
 #project-1-url {
@@ -291,5 +308,8 @@ ul {
   color:white;
 }
 
-
-
+.form-horizontal {
+  position:relative;
+  margin-top: 150px;
+  /*background-color: red;*/
+}
