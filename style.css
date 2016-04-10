@@ -18,6 +18,10 @@ ul {
   background-color: #2B2B2B;
 }
 
+.navbar-nav {
+  font-size: 18px;
+}
+
 .glyphicon-triangle-bottom {
   position:absolute;
   top:85vh;
@@ -312,4 +316,8 @@ ul {
   position:relative;
   margin-top: 150px;
   /*background-color: red;*/
+}
+
+.tech-descript {
+  color: #777;
 }
