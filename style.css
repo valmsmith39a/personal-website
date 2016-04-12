@@ -59,92 +59,10 @@ ul {
   padding: 20px;
 }
 
-/* entire container, keeps perspective */
-.flip-container {
-  perspective: 1000;
-}
-
-/* flip the pane when hovered */
-.flip-container:hover .flipper, .flip-container.hover .flipper {
-  transform: rotateY(180deg);
-}
-
-
-.flip-container, .front, .back {
-  width: 320px;
-  height: 480px;
-}
-
-/* flip speed goes here */
-.flipper {
-  transition: 0.6s;
-  transform-style: preserve-3d;
-  position: relative;
-}
-
-/* hide back of pane during swap */
-.front, .back {
-  backface-visibility: hidden;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-/* front pane, placed above back */
-.front {
-  z-index: 2;
-  /* for firefox 31 */
-  transform: rotateY(0deg);
-}
-
-/* back, initially hidden pane */
-.back {
-  transform: rotateY(180deg);
-}
-
-#projects-row {
-  /*background-color: red;*/
-}
-
-.col-projects {
-  /*background-color: green;*/
-  text-align: center;
-}
-
-.projects-container {
-  height:20vh;
-  width:100%;
-  margin:center;
-  text-align: center;
-}
-
-.project-box-outer {
-  width:33%;
-  background-color: yellow;
-  display:inline-block;
-   /*float:left;*/
-  /* padding-left:4px; */
-}
-
-.project-box {
-  position:relative;
-  background:gray;
-  width:200px;
-  left:5vw;
-  /*margin:5px 40px;*/
-  margin:5px auto;
-}
-
-.thumbnail {
-  background-color: white;
-  margin: 0 auto;
-  height:50vh;
-  width:25vw;
-}
-
 .skills-container {
   position:relative;
   color:white;
+  margin-top:15vw;
   font-size: 40px;
   text-align: center;
 }
@@ -157,12 +75,6 @@ ul {
 .list-group {
   color:white;
   opacity:0;
-}
-
-#thumbnail {
-  background-color: #757575;
-  /*color: #C5C5C5;*/
-  border: 5px solid #fff;
 }
 
 #github-box {
@@ -204,12 +116,6 @@ ul {
   color:white;
 }
 
-#project1-caption, #project2-caption, #project3-caption {
-  color: black;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
 #name {
   position:relative;
   top:8vh;
@@ -227,58 +133,69 @@ ul {
   top:10vh;
 }
 
-/*.thumbnail {
-  width: 50%;
-}*/
+/* entire container, keeps perspective */
+.flip-container {
+  perspective: 1000;
+}
 
-#img-1, #img-2, #img-3 {
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+  transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+  width: 320px;
+  height: 480px;
+}
+
+/* flip speed goes here */
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+  z-index: 2;
+  /* for firefox 31 */
+  transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+  transform: rotateY(180deg);
+}
+
+#projects-row {}
+
+.projects-col {
+  text-align: center;
+}
+
+.thumbnail {
+  height: 50vh;
+  width: 25vw;
+  margin: 6.5vw auto 10.5vw auto;
+  background-color: #757575;
+  border: 5px solid #fff;
+}
+
+#img-1, #img-2 {
   height: 100%;
-  width:100%;
+  width: 100%;
 }
 
-#project-1 {
-  height:25vw;
-  width:20vw;
-  background-size: 100% 100%;
-  margin:10px;
-}
-
-#project-2 {
-  height:25vw;
-  width:20vw;
-  background-size: 100% 100%;
-  margin:10px;
-}
-
-#project-3 {
-  height:25vw;
-  width:20vw;
-  background-size: 100% 100%;
-  margin:10px;
-}
-
-#project-1-title {
-  margin:30px;
-}
-
-#project-2-title {
-  margin:30px;
-}
-
-#project-3-title {
-  margin:30px;
-}
-
-#project-1-url {
-  color:black;
-}
-
-#project-2-url {
-  color:black;
-}
-
-#project-3-url {
-  color:black;
+.projects-caption {
+  text-align: center;
 }
 
 #contact_form {
@@ -290,17 +207,12 @@ ul {
   color:white;
 }
 
-#input-email {
-  /*width:33vw;*/
-}
-
 #resume-pdf {
   width:90vw;
   height:100vh;
 }
 
 .header {
-  /*color: #36A0FF;*/
   color:white;
   font-size: 27px;
   padding: 10px;
@@ -308,14 +220,12 @@ ul {
 
 .bigicon {
   font-size: 35px;
-  /*color: #36A0FF;*/
   color:white;
 }
 
 .form-horizontal {
   position:relative;
   margin-top: 150px;
-  /*background-color: red;*/
 }
 
 .tech-descript {

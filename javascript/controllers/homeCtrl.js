@@ -5,15 +5,7 @@ app.controller('homeCtrl', function($scope, $location, $anchorScroll) {
     $location.hash(id);
     $anchorScroll();
   }
-
-  $scope.submitContactInfo = function() {
-  /*
-    Contact.submit($scope.contact)
-    .then(function(res) {
-      console.log('successfully sent res is: ', res);
-    });
-  */
-  };
+  $scope.submitContactInfo = function() {};
 });
 
 app.service('Contact', function($http) {
