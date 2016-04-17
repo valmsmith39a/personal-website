@@ -5,13 +5,14 @@
         <a class="navbar-brand" href="#"></a>
       </div>
       <ul class="nav navbar-nav">
-        <li><a href="#/blog">Blog</a></li>
+        <li><a href="#/blog" target="_blank">Blog</a></li>
         <li><a href="" ng-click="scrollTo('projects-row')">Portfolio</a></li>
-        <li><a href="https://github.com/valmsmith39a"><i class="fa fa-github"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/georgewee"><i class="fa fa-linkedin"></i></a></li>
-        <li><a href="https://twitter.com/valmsmith39a"><i class="fa fa-twitter"></i></a></li>
-        <li><a href="http://stackoverflow.com/users/5656059/valmsmith39a"><i class="fa fa-stack-overflow"></i></a></li>
-        <li><a href="https://angel.co/george-wee-1"><i class="fa fa-angellist"></i></a></li>
+        <li><a href="mailto:george.x.wee@gmail.com">Contact</a></li>
+        <li><a href="https://github.com/valmsmith39a" target="_blank"><i class="fa fa-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/georgewee" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="https://twitter.com/valmsmith39a" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="http://stackoverflow.com/users/5656059/valmsmith39a" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
+        <li><a href="https://angel.co/george-xian-wee" target="_blank"><i class="fa fa-angellist"></i></a></li>
       </ul>
   </nav>
 
@@ -21,10 +22,10 @@
         <h1 id="name">George Wee</h1>
       </tr>
       <tr id="title-descript-row">
-        <h2 id="title-descript">Full-Stack Javascript Web Developer</h2>
+        <h2 id="title-descript">Full Stack Javascript Web Developer</h2>
       </tr>
       <a ng-click="scrollTo('projects-row')">
-        <span class="glyphicon glyphicon-triangle-bottom" ></span>
+        <span id="pointer" class="glyphicon glyphicon-triangle-bottom" ></span>
       </a>
     </table>
   </div>
@@ -60,13 +61,15 @@
       <div class="thumbnail">
         <a href = "http://www.groupffl.com/" target="_blank">
           <img id="img-1" src = "http://cdn2-b.examiner.com/sites/default/files/styles/article_large/hash/bf/d7/bfd76de919d3bc5f8d0b5f0f837023d4.jpg?itok=QARsDsEh" alt = "Generic placeholder thumbnail"></img>
+          <!-- <img id="img-1" src = "../supporting/images/gffl.png" alt = "Generic placeholder thumbnail"></img> -->
         </a>
           <h3>
             <a href = "http://www.groupffl.com/" target="_blank">
               Group Fantasy Football League
             </a>
           </h3>
-          <h5 class="tech-descript">React, React-Redux, React-Router, Express/Node.js, Mongoose/MongoDB,<br>bcrypt-nodejs
+          <h5>Social Media Platform for Fantasy Football</h5>
+          <h5 class="tech-descript">React, Redux, React-Router, Express/Node.js, Mongoose/MongoDB, bcrypt-nodejs
           </h5>
           <p>
             <a href="https://github.com/groupffl/groupffl" target="_blank">View Code on GitHub
@@ -79,12 +82,14 @@
       <div class="thumbnail">
         <a href = "https://autovision.herokuapp.com/#/" target="_blank">
           <img id="img-2" src = "http://amazinghdwall.com/wp-content/uploads/2014/07/Dodge-Viper-Sports-Cars.jpg" alt = "Generic placeholder thumbnail"></img>
+          <!-- <img id="img-2" src = "../supporting/images/autovision.png" alt = "Generic placeholder thumbnail"></img> -->
         </a>
           <h3>
             <a href = "https://autovision.herokuapp.com/#/" target="_blank">
-              Autovision - Auto Parts Marketplace
+              Autovision
             </a>
           </h3>
+          <h5>Marketplace for Auto Parts</h5>
           <h5 class="tech-descript">AngularJS, AngularUI Router, Express/Node.js, Mongoose/MongoDB, AWS S-3, bcrypt-nodejs
           </h5>
           <p>
@@ -97,9 +102,7 @@
 
 <form class="form-horizontal" action="">
   <legend class="text-center header">
-    <a href="mailto:george.x.wee@gmail.com">Email Me</a>
-    <br>
-    <a href="#/resume_pdf">Resume-PDF</a>
-    <a href="#/resume_doc">Resume-DOC</a>
+    <a href="#/resume_pdf" target="_blank">Resume-PDF</a>
+    <a href="#/resume_doc" target="_blank">Resume-DOC</a>
   </legend>
 </form>

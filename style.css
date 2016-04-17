@@ -1,9 +1,9 @@
 body {
-  background-color: #2B2B2B;
+  background-color: white;
 }
 
 a {
-  color: #fff;
+  color: black;
 }
 
 a:hover {
@@ -33,14 +33,19 @@ ul {
   top:-20px;
   height:100vh;
   width:100vw;
-  background-image: url('https://images.unsplash.com/photo-1452716726610-30ed68426a6b?crop=entropy&dpr=2&fit=crop&fm=jpg&h=725&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1425');
+  /*background-image: url('https://images.unsplash.com/photo-1452716726610-30ed68426a6b?crop=entropy&dpr=2&fit=crop&fm=jpg&h=725&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1425');*/
+  /*background-image: url('https://images.unsplash.com/photo-1456949037425-4b097bbcc0e8?crop=entropy&dpr=2&fit=crop&fm=jpg&h=750&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1450');*/
+  /*background-image: url('https://images.unsplash.com/photo-1437240443155-612416af4d5a?crop=entropy&dpr=2&fit=crop&fm=jpg&h=750&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1450');*/
+  /*background-image: url('https://images.unsplash.com/photo-1428279148693-1cf2163ed67d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=2267ed8ebaa29affe62540f9805dcf03');*/
+  background-image: url('https://images.unsplash.com/photo-1431629452562-165c8f49fc97?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=d402523995b84a8c22d79ba93ea3d431');
+
   background-size:100% 100%;
   text-align:center;
 }
 
 .title-features-table {
   margin: 0 auto;
-  color:white;
+  color: white;
 }
 
 .title-features-box {
@@ -48,6 +53,10 @@ ul {
   width:10vw;
   padding:3px;
   margin:5px auto;
+}
+
+#pointer {
+  color: white;
 }
 
 .row {
@@ -60,9 +69,9 @@ ul {
 }
 
 .skills-container {
-  position:relative;
-  color:white;
-  margin-top:15vw;
+  position: relative;
+  color: black;
+  margin-top: 15vw;
   font-size: 40px;
   text-align: center;
 }
@@ -78,21 +87,21 @@ ul {
 }
 
 #github-box {
-  height:30px;
-  width:100px;
-  border-style:solid;
-  border-color:white;
-  border-width:3px;
-  margin:50px;
+  height: 30px;
+  width: 100px;
+  border-style: solid;
+  border-color: white;
+  border-width: 3px;
+  margin: 50px;
 }
 
 #resume-box {
-  height:30px;
-  width:100px;
-  border-style:solid;
-  border-color:white;
-  border-width:3px;
-  margin:50px;
+  height: 30px;
+  width: 100px;
+  border-style: solid;
+  border-color: white;
+  border-width: 3px;
+  margin: 50px;
 }
 
 #twitter-box {
@@ -117,16 +126,20 @@ ul {
 }
 
 #name {
-  position:relative;
-  top:8vh;
-  color:white;
-  font-size:72px;
+  position: relative;
+  top: 8vh;
+  color: white;
+  font-size: 72px;
+  text-shadow: 2px 2px black;
 }
 
 #title-descript {
-  position:relative;
-  top:10vh;
-  color:white;
+  position: relative;
+  top: 10vh;
+  color: white;
+  font-size: 40px;
+  text-shadow: 2px 2px black;
+
 }
 
 #title-descript-row {
@@ -185,8 +198,9 @@ ul {
   height: 50vh;
   width: 25vw;
   margin: 6.5vw auto 10.5vw auto;
-  background-color: #757575;
-  border: 5px solid #fff;
+  /*background-color: #757575;*/
+  background-color: #fff;
+  /*border: 3px solid #fff;*/
 }
 
 #img-1, #img-2 {
@@ -198,13 +212,8 @@ ul {
   text-align: center;
 }
 
-#contact_form {
-  color:white;
-  text-align: center;
-}
-
 #contact-legend {
-  color:white;
+  color: black;
 }
 
 #resume-pdf {
@@ -226,6 +235,7 @@ ul {
 .form-horizontal {
   position:relative;
   margin-top: 150px;
+  color: black;
 }
 
 .tech-descript {
