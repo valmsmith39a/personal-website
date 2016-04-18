@@ -195,13 +195,18 @@ ul {
 }
 
 .thumbnail {
+  height: 500px;
+  width: 400px;
+  margin: auto;
+}
+/*.thumbnail {
   height: 50vh;
   width: 25vw;
-  margin: 6.5vw auto 10.5vw auto;
+  margin: 6.5vw auto 10.5vw auto;*/
   /*background-color: #757575;*/
-  background-color: #fff;
+  /*background-color: #fff;*/
   /*border: 3px solid #fff;*/
-}
+/*}*/
 
 #img-1, #img-2 {
   height: 100%;
