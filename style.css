@@ -65,15 +65,14 @@ ul {
 
 .skills-container {
   position: relative;
+  margin: 17vh auto; 
   color: black;
-  margin-top: 15vw;
   font-size: 40px;
   text-align: center;
 }
 
 .skills-row {
   position:relative;
-  margin: 125px 0px;
 }
 
 .list-group {
