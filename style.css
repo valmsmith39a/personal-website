@@ -7,7 +7,7 @@ a {
 }
 
 a:hover {
-  color:#5E5E5E;
+  color: #5E5E5E;
 }
 
 ul {
@@ -23,22 +23,17 @@ ul {
 }
 
 .glyphicon-triangle-bottom {
-  position:absolute;
-  top:85vh;
-  font-size:35px;
+  position: absolute;
+  top: 85vh;
+  font-size: 35px;
 }
 
 .title-container {
-  position:relative;
-  top:-20px;
-  height:100vh;
-  width:100vw;
-  /*background-image: url('https://images.unsplash.com/photo-1452716726610-30ed68426a6b?crop=entropy&dpr=2&fit=crop&fm=jpg&h=725&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1425');*/
-  /*background-image: url('https://images.unsplash.com/photo-1456949037425-4b097bbcc0e8?crop=entropy&dpr=2&fit=crop&fm=jpg&h=750&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1450');*/
-  /*background-image: url('https://images.unsplash.com/photo-1437240443155-612416af4d5a?crop=entropy&dpr=2&fit=crop&fm=jpg&h=750&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1450');*/
-  /*background-image: url('https://images.unsplash.com/photo-1428279148693-1cf2163ed67d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=2267ed8ebaa29affe62540f9805dcf03');*/
+  position: relative;
+  top: -20px;
+  height: 100vh;
+  width: 100vw;
   background-image: url('https://images.unsplash.com/photo-1431629452562-165c8f49fc97?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=d402523995b84a8c22d79ba93ea3d431');
-
   background-size:100% 100%;
   text-align:center;
 }
@@ -49,10 +44,10 @@ ul {
 }
 
 .title-features-box {
-  height:5vh;
-  width:10vw;
-  padding:3px;
-  margin:5px auto;
+  height: 5vh;
+  width: 10vw;
+  padding: 3px;
+  margin: 5px auto;
 }
 
 #pointer {
@@ -139,7 +134,6 @@ ul {
   color: white;
   font-size: 40px;
   text-shadow: 2px 2px black;
-
 }
 
 #title-descript-row {
@@ -188,32 +182,24 @@ ul {
   transform: rotateY(180deg);
 }
 
-#projects-row {}
+.thumbnail {
+  width: 500px;
+  height: 475px;
+  margin: auto;
+  text-align: left;
+}
 
-.projects-col {
+.img-project {
+  position: relative;
+  width: 99%;
+  height: 95%;
+}
+
+.project-title-link {
   text-align: center;
 }
 
-.thumbnail {
-  height: 500px;
-  width: 400px;
-  margin: auto;
-}
-/*.thumbnail {
-  height: 50vh;
-  width: 25vw;
-  margin: 6.5vw auto 10.5vw auto;*/
-  /*background-color: #757575;*/
-  /*background-color: #fff;*/
-  /*border: 3px solid #fff;*/
-/*}*/
-
-#img-1, #img-2 {
-  height: 100%;
-  width: 100%;
-}
-
-.projects-caption {
+.project-info-links {
   text-align: center;
 }
 
