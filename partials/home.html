@@ -1,62 +1,60 @@
 
 <div class="main-container">
   <nav class="navbar navbar-default">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#"></a>
-      </div>
-      <ul class="nav navbar-nav">
-        <li><a href="#/blog" target="_blank">Blog</a></li>
-        <li><a href="" ng-click="scrollTo('projects')">Portfolio</a></li>
-        <li><a href="mailto:george.x.wee@gmail.com">Contact</a></li>
-        <li><a href="https://github.com/valmsmith39a" target="_blank"><i class="fa fa-github"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/georgewee" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-        <li><a href="https://twitter.com/valmsmith39a" target="_blank"><i class="fa fa-twitter"></i></a></li>
-        <li><a href="http://stackoverflow.com/users/5656059/valmsmith39a" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
-        <li><a href="https://angel.co/george-xian-wee" target="_blank"><i class="fa fa-angellist"></i></a></li>
-      </ul>
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/">Home</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="#/blog" target="_blank">Blog</a></li>
+      <li><a href="" ng-click="scrollTo('row-projects')">Portfolio</a></li>
+      <li><a href="mailto:george.x.wee@gmail.com">Contact</a></li>
+      <li><a href="https://github.com/valmsmith39a" target="_blank"><i class="fa fa-github"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/georgewee" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+      <li><a href="https://twitter.com/valmsmith39a" target="_blank"><i class="fa fa-twitter"></i></a></li>
+      <li><a href="http://stackoverflow.com/users/5656059/valmsmith39a" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
+      <li><a href="https://angel.co/george-xian-wee" target="_blank"><i class="fa fa-angellist"></i></a></li>
+    </ul>
   </nav>
 
-  <div class="title-container">
-    <table class="title-features-table">
-      <tr id="title-row">
+  <div class="row row-title">
+    <table class="table-title-features">
+      <tr id="row-table-title">
         <h1 id="name">George Wee</h1>
       </tr>
-      <tr id="title-descript-row">
+      <tr id="row-table-title-descript">
         <h2 id="title-descript">Full Stack Javascript Web Developer</h2>
       </tr>
-      <a ng-click="scrollTo('projects')">
+      <a ng-click="scrollTo('row-projects')">
         <span id="pointer" class="glyphicon glyphicon-triangle-bottom" ></span>
       </a>
     </table>
   </div>
 
-  <div class="skills-container">
-    <div class="row skills-row">
-      <div class="col-sm-12 col-md-4">
-        <ul>
-          <li>JavaScript</li>
-          <li>HTML</li>
-          <li>CSS</li>
-        </ul>
-      </div>
-      <div class="col-sm-12 col-md-4">
-        <ul>
-          <li>React</li>
-          <li>AngularJS</li>
-          <li>jQuery</li>
-        </ul>
-      </div>
-      <div class="col-sm-12 col-md-4">
-        <ul>
-          <li>Express</li>
-          <li>Node.js</li>
-          <li>MongoDB</li>
-        </ul>
-      </div>
+  <div class="row row-skills">
+    <div class="col-sm-12 col-md-4">
+      <ul class="ul-skills">
+        <li class="li-skills">JavaScript</li>
+        <li class="li-skills">HTML</li>
+        <li class="li-skills">CSS</li>
+      </ul>
+    </div>
+    <div class="col-sm-12 col-md-4">
+      <ul class="ul-skills">
+        <li class="li-skills">React</li>
+        <li class="li-skills">AngularJS</li>
+        <li class="li-skills">jQuery</li>
+      </ul>
+    </div>
+    <div class="col-sm-12 col-md-4">
+      <ul class="ul-skills">
+        <li class="li-skills">Express</li>
+        <li class="li-skills">Node.js</li>
+        <li class="li-skills">MongoDB</li>
+      </ul>
     </div>
   </div>
 
-  <div class = "row" id="projects">
+  <div class = "row row-projects" id="row-projects">
     <h1 id="title-projects">Portfolio</h1>
     <div class = "col-md-6">
       <div class="thumbnail">
@@ -91,13 +89,15 @@
         </div>
       </div>
     </div>
-</div>
+  </div>
 
-<form class="form-horizontal" action="">
-  <legend class="text-center header">
-    <h1>
-      <a href="#/resume_pdf" target="_blank">Resume-PDF</a>
-      <a href="#/resume_doc" target="_blank">Resume-DOC</a>
-   </h1>
-  </legend>
-</form>
+  <div class="row row-resume">
+    <legend class="text-center header" id="legend">
+      <h1>
+        <a href="#/resume_pdf" target="_blank">Resume-PDF</a>
+        <a href="#/resume_doc" target="_blank">Resume-DOC</a>
+      </h1>
+    </legend>
+  </div>
+
+</div>

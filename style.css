@@ -1,5 +1,13 @@
-body {
-  background-color: white;
+.main-container {
+  text-align: center;
+}
+
+.navbar {
+  font-size: 19px;
+}
+
+.navbar-brand {
+  font-size: 20px; 
 }
 
 a {
@@ -14,21 +22,11 @@ ul {
   list-style-type: none;
 }
 
-.navbar navbar-default {
-  background-color: #2B2B2B;
+.row {
+  margin: 0px;
 }
 
-.navbar-nav {
-  font-size: 19px;
-}
-
-.glyphicon-triangle-bottom {
-  position: absolute;
-  top: 85vh;
-  font-size: 35px;
-}
-
-.title-container {
+.row-title {
   position: relative;
   top: -20px;
   height: 100vh;
@@ -36,87 +34,6 @@ ul {
   background-image: url('https://images.unsplash.com/photo-1431629452562-165c8f49fc97?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=d402523995b84a8c22d79ba93ea3d431');
   background-size:100% 100%;
   text-align:center;
-}
-
-.title-features-table {
-  margin: 0 auto;
-  color: white;
-}
-
-.title-features-box {
-  height: 5vh;
-  width: 10vw;
-  padding: 3px;
-  margin: 5px auto;
-}
-
-#pointer {
-  color: white;
-}
-
-.row {
-  margin: 15px;
-}
-
-.back {
-  color: #fff;
-  padding: 20px;
-}
-
-.skills-container {
-  position: relative;
-  margin: 17vh auto;
-  color: black;
-  font-size: 40px;
-  text-align: center;
-}
-
-.skills-row {
-  position:relative;
-}
-
-.list-group {
-  color:white;
-  opacity:0;
-}
-
-#github-box {
-  height: 30px;
-  width: 100px;
-  border-style: solid;
-  border-color: white;
-  border-width: 3px;
-  margin: 50px;
-}
-
-#resume-box {
-  height: 30px;
-  width: 100px;
-  border-style: solid;
-  border-color: white;
-  border-width: 3px;
-  margin: 50px;
-}
-
-#twitter-box {
-  height:30px;
-  width:100px;
-  border-style:solid;
-  border-color:white;
-  border-width:3px;
-  margin:50px;
-}
-
-#github-url {
-  color:white;
-}
-
-#resume-url {
-  color:white;
-}
-
-#twitter-url {
-  color:white;
 }
 
 #name {
@@ -127,6 +44,10 @@ ul {
   text-shadow: 2px 2px black;
 }
 
+#row-table-title-descript {
+  top:10vh;
+}
+
 #title-descript {
   position: relative;
   top: 10vh;
@@ -135,16 +56,26 @@ ul {
   text-shadow: 2px 2px black;
 }
 
-#title-descript-row {
-  top:10vh;
+.glyphicon-triangle-bottom {
+  position: absolute;
+  top: 85vh;
+  font-size: 35px;
 }
 
-#projects {
+#pointer {
+  color: white;
+}
+
+.row-skills {
+  position: relative;
+  margin: 40px auto;
+  color: black;
+  font-size: 35px;
   text-align: center;
 }
 
-#title-projects {
-  /*margin-bottom: 50px;*/
+.li-skills {
+  margin: 10px auto;
 }
 
 .thumbnail {
@@ -152,6 +83,10 @@ ul {
   height: 475px;
   margin: 75px auto;
   text-align: left;
+}
+
+.row-projects {
+  margin: 0;
 }
 
 .img-project {
@@ -168,32 +103,8 @@ ul {
   text-align: center;
 }
 
-#contact-legend {
-  color: black;
-}
-
-#resume-pdf {
-  width:90vw;
-  height:100vh;
-}
-
-.header {
-  color:white;
-  font-size: 27px;
-  padding: 10px;
-}
-
-.bigicon {
-  font-size: 35px;
-  color:white;
-}
-
 .form-horizontal {
   position:relative;
   margin-top: 150px;
   color: black;
-}
-
-.tech-descript {
-  color: #777;
 }
