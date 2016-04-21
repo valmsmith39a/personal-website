@@ -60,6 +60,12 @@ ul {
   text-shadow: 2.0px 2.0px black;
 }
 
+.row-summary {
+  font-size: 20px;
+  margin: 20px;
+  text-align: left;
+}
+
 /*.glyphicon-triangle-bottom {
   position: absolute;
   top: 85vh;
@@ -70,6 +76,9 @@ ul {
   color: white;
 }*/
 
+#title-skills {
+  margin-bottom: 55px;
+}
 .row-skills {
   position: relative;
   margin: 40px auto;
