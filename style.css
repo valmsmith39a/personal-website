@@ -7,7 +7,7 @@
 }
 
 .navbar-brand {
-  font-size: 19px; 
+  font-size: 19px;
 }
 
 a {
@@ -44,27 +44,31 @@ ul {
   text-shadow: 2px 2px black;
 }
 
-#row-table-title-descript {
-  top:10vh;
+#image-profile {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin-top: 10vh;
+  border: 2px solid white;
 }
 
 #title-descript {
   position: relative;
-  top: 10vh;
+  top: 3vh;
   color: white;
   font-size: 40px;
   text-shadow: 2px 2px black;
 }
 
-.glyphicon-triangle-bottom {
+/*.glyphicon-triangle-bottom {
   position: absolute;
   top: 85vh;
   font-size: 35px;
-}
+}*/
 
-#pointer {
+/*#pointer {
   color: white;
-}
+}*/
 
 .row-skills {
   position: relative;
