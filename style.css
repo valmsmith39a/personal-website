@@ -1,13 +1,17 @@
+body {
+  font-size: 16px;
+}
+
 .main-container {
   text-align: center;
 }
 
 .navbar {
-  font-size: 25px;
+  font-size: 160%;
 }
 
 .navbar-brand {
-  font-size: 26px;
+  font-size: 101%;
 }
 
 a {
@@ -61,7 +65,7 @@ ul {
 }
 
 .row-summary {
-  font-size: 20px;
+  font-size: 175%;
   margin: 20px;
   text-align: left;
 }
@@ -83,7 +87,8 @@ ul {
   position: relative;
   margin: 40px auto;
   color: black;
-  font-size: 35px;
+  /*font-size: 35px;*/
+  font-size: 205%;
   text-align: center;
 }
 
