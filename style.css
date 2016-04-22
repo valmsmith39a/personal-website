@@ -103,7 +103,7 @@ ul {
 
 .thumbnail {
   width: 500px;
-  height: 475px;
+  height: 550px;
   margin: 75px auto;
   text-align: left;
 }
@@ -124,6 +124,10 @@ ul {
 
 .project-info-links {
   text-align: center;
+}
+
+.descript-technologies {
+  /*color: #707070;*/
 }
 
 #title-resume {
