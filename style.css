@@ -44,7 +44,7 @@ ul {
   position: relative;
   top: 8vh;
   color: white;
-  font-size: 72px;
+  font-size: 450%;
   text-shadow: 1.5px 1.5px black;
 }
 
@@ -60,7 +60,7 @@ ul {
   position: relative;
   top: 3vh;
   color: white;
-  font-size: 40px;
+  font-size: 250%;
   text-shadow: 2.0px 2.0px black;
 }
 
@@ -82,18 +82,23 @@ ul {
 
 #title-skills {
   margin-bottom: 55px;
+  font-weight: bold;
 }
+
 .row-skills {
   position: relative;
   margin: 40px auto;
   color: black;
-  /*font-size: 35px;*/
-  font-size: 205%;
   text-align: center;
 }
 
 .li-skills {
   margin: 10px auto;
+  font-size: 250%;
+}
+
+#title-portfolio {
+  font-weight: bold;
 }
 
 .thumbnail {
@@ -119,6 +124,10 @@ ul {
 
 .project-info-links {
   text-align: center;
+}
+
+#title-resume {
+  font-weight: bold;
 }
 
 #resume-pdf {
