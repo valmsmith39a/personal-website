@@ -14,6 +14,11 @@ body {
   font-size: 101%;
 }
 
+.fa-home {
+  font-size: 93%;
+  top: 0px;
+}
+
 a {
   color: black;
 }
@@ -102,8 +107,8 @@ ul {
 }
 
 .thumbnail {
-  width: 500px;
-  height: 550px;
+  width: 350px;
+  height: 575px;
   margin: 75px auto;
   text-align: left;
 }
