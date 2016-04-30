@@ -110,7 +110,7 @@ ul {
 
 .thumbnail {
   width: 350px;
-  height: 575px;
+  height: 500px;
   margin: 75px auto;
   text-align: left;
 }
@@ -142,6 +142,8 @@ ul {
 }
 
 #title-resume {}
+
+#resume-doc {}
 
 #resume-pdf {
   position: absolute;
