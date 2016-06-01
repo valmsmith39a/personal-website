@@ -42,7 +42,7 @@ ul {
   top: -20px;
   height: 100vh;
   width: 100vw;
-  background-image: url('https://images.unsplash.com/photo-1431629452562-165c8f49fc97?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=d402523995b84a8c22d79ba93ea3d431');
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('https://images.unsplash.com/photo-1431629452562-165c8f49fc97?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=d402523995b84a8c22d79ba93ea3d431');
   background-size:100% 100%;
   text-align:center;
 }
