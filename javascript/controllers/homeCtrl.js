@@ -11,7 +11,7 @@ app.controller('homeCtrl', function($scope, $location, $anchorScroll) {
     /* navbar menu will collapse when click on link in menu */
     $(function() {
       let navbarMenu = $('#navbar-collapse-menu');
-        navbarMenu.on('click', 'a', null, function() {
+        navbarMenu.on('click', 'li', null, function() {
         navbarMenu.collapse('hide');
       });
     });
