@@ -24,3 +24,14 @@ app.service('Contact', function($http) {
     return $http.post('https://mandrillapp.com/api/1.0/messages/send.json', contact);
   };
 });
+
+app.directive("ngMobileClick", [function () {
+    return function (scope, elem, attrs) {
+        elem.bind("touchstart click", function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            scope.$apply(attrs["ngMobileClick"]);
+        });
+    }
+}])
