@@ -1,11 +1,17 @@
 var app = angular.module('personalSite');
 
 app.controller('homeCtrl', function($scope, $location, $anchorScroll) {
+
   $scope.scrollTo = function(id) {
     $location.hash(id);
     $anchorScroll();
   }
-  $scope.submitContactInfo = function() {};
+
+  $scope.collapseNavbarMenu = function () {
+    console.log('in collapse navbar menu');
+  }
+
+  $scope.submitContactInfo = function () {};
 });
 
 app.service('Contact', function($http) {
