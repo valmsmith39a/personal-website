@@ -8,12 +8,10 @@ app.controller('homeCtrl', function($scope, $location, $anchorScroll) {
   }
 
   $scope.collapseNavbarMenu = function () {
-    console.log('in collapse menu')
     /* navbar menu will collapse when click on link in menu */
     $(function() {
       let navbarMenu = $('#navbar-collapse-menu');
-
-      navbarMenu.on('click', 'a', null, function() {
+        navbarMenu.on('click', 'a', null, function() {
         navbarMenu.collapse('hide');
       });
     });
