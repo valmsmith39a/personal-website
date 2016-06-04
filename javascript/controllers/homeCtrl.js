@@ -2,34 +2,23 @@ var app = angular.module('personalSite');
 
 app.controller('homeCtrl', function($scope, $location, $anchorScroll) {
 
-   $(function() {
-      $('#dropdown-menu').click(function() {
-        console.log('clicked')
-        let navbarMenu = $('#navbar-collapse-menu');
-        navbarMenu.on('click', 'li', null, function() {
-          navbarMenu.collapse('hide');
-        });
-      });
-
-      $('#portfolio-item').click(function() {
-        console.log('clicked portfolio')
-        $location.hash('projects');
-        $anchorScroll();
-        let navbarMenu = $('#navbar-collapse-menu');
-        navbarMenu.on('click', 'li', null, function() {
-          navbarMenu.collapse('hide');
-        });
+ $(function() {
+    $('#dropdown-menu').click(function() {
+      let navbarMenu = $('#navbar-collapse-menu');
+      navbarMenu.on('click', 'li', null, function() {
+        navbarMenu.collapse('hide');
       });
     });
 
-  $scope.scrollTo = function() {
-   
-  }
-
-  $scope.collapseNavbarMenu = function () {
-    /* navbar menu will collapse when click on link in menu */
-     
-  }
+    $('#portfolio-item').click(function() {
+      $location.hash('projects');
+      $anchorScroll();
+      let navbarMenu = $('#navbar-collapse-menu');
+      navbarMenu.on('click', 'li', null, function() {
+        navbarMenu.collapse('hide');
+      });
+    });
+  });
 });
 
 app.service('Contact', function($http) {
