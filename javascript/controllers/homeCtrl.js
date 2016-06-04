@@ -28,12 +28,12 @@ app.service('Contact', function($http) {
 });
 
 app.directive("ngMobileClick", [function () {
-    return function (scope, elem, attrs) {
-        elem.bind("touchstart click", function (e) {
-            e.preventDefault();
-            e.stopPropagation();
+  return function (scope, elem, attrs) {
+    elem.bind("touchstart click", function (e) {
+      e.preventDefault();
+      e.stopPropagation();
 
-            scope.$apply(attrs["ngMobileClick"]);
-        });
-    }
+      scope.$apply(attrs["ngMobileClick"]);
+    });
+  }
 }])

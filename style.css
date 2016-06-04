@@ -16,9 +16,18 @@ body {
   font-size: 101%;
 }
 
+#dropdown-menu {
+  margin-left: 10px;
+}
+
+.navbar-items {
+  margin: 0px;
+}
+
 .fa-home {
+  position: absolute;
   font-size: 93%;
-  top: 0px;
+  top: 13px;
 }
 
 a {
