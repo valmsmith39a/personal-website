@@ -139,8 +139,10 @@ ul {
 
 .img-project {
   position: relative;
-  width: 99%;
-  height: 95%;
+  max-width: 100%;
+  max-height: 50%;
+  width: auto;
+  height: auto;
 }
 
 .project-title-link {
